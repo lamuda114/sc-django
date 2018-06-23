@@ -13,6 +13,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings    #유저 이미지 추가 필요한 임푸트
+from django.conf.urls.static import static    #유저 이미지 추가 필요한 임푸트
 from django.contrib import admin
 from django.urls import include, path
 
@@ -20,3 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
 ]
+
+#유저가 이미지 추가 필요한 세팅
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
