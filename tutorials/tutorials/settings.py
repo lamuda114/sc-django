@@ -127,5 +127,5 @@ STATIC_URL = '/static/' #개발 리소스로서의 정적인 파일 (css, javasc
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'tutorials', 'static'),
 ]
-MEDIA_URL = '/media/' #유저로 업로드한 모든 파일
+MEDIA_URL = '/media/' #유저로 업로드한 모든 파일 (사진)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
