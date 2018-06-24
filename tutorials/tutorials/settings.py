@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'bookmark',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,11 @@ ROOT_URLCONF = 'tutorials.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            # 프로젝트 전체쓰는 templates은 경로를 지정해주어야 한다
+            # /프로젝트/templates 경로에 두는 것을 선호
+            os.path.join(BASE_DIR, 'tutorials', 'templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
