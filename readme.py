@@ -1,3 +1,2 @@
-# readme.py
-你好!
-Hello Django!
+你好 python!
+hello django!
