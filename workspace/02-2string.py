@@ -13,3 +13,4 @@ while i > 1:
     i -= 1
     y += '0'
 print('자릿수는{}자리수입니다' . format(y))
+print('hello django!')
