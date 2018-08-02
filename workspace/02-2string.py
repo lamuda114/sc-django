@@ -15,3 +15,5 @@ while i > 1:
 print('자릿수는{}자리수입니다' . format(y))
 
 print('Hello python!')
+
+print('안녕하세요!')
