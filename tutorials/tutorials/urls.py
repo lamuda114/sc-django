@@ -21,6 +21,7 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
+    path('bookmark/', include('bookmark.urls')),
 ]
 
 #유저가 이미지 추가 필요한 세팅
