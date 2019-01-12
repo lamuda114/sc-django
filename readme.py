@@ -1,1 +1,1 @@
-git/github 작업실입니다
+git/github
