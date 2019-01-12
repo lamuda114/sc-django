@@ -1,4 +1,1 @@
-你好 python!
-hello django!
-안녕하세요!
-hello world
+git/github 작업실입니다
