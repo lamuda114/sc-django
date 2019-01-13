@@ -126,8 +126,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/' #개발 리소스로서의 정적인 파일 (css, javascript, images, etc)
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'), #앱별로 사용할수 있는 정적파일
-    os.path.join(BASE_DIR, 'tutorials', 'static'), #전체프로젝트에서 사용할수있는 정적파일
+    os.path.join(BASE_DIR, 'static'), #앱 별로 사용할수 있는 정적파일 명시
+    os.path.join(BASE_DIR, 'tutorials', 'static'), #전체프로젝트에서 사용할수있는 정적파일 명시
 ]
 MEDIA_URL = '/media/' #유저로 업로드한 모든 파일 (사진)
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
