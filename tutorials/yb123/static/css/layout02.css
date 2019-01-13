@@ -4,7 +4,7 @@ body {
 /* a-inline element */
 a {
     color: black;
-    text-decoration: none; /* a링크밑줄 제거 */
+    text-decoration: underline; /* a링크밑줄 제거 */
 } 
 /* h1-block level element */
 h1 {
