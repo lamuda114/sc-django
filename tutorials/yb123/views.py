@@ -2,11 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(request):
+def one(request):
     return render(request, 'yb123/one.html',
     )
 
-def tow(request):
+def two(request):
     return render(request, 'yb123/two.html',
     )
 
