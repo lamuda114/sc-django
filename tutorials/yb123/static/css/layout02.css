@@ -1,13 +1,15 @@
 body {
     margin: 0;
+   
 }
 /* a-inline element */
 a {
-    color: black;
-    text-decoration: underline; /* a링크밑줄 제거 */
+    color: #FFFF;
+    text-decoration: none; /* a링크밑줄 제거 */
 } 
 /* h1-block level element */
 h1 {
+    background-color: #005896;
     font-size: 45px;
     margin: 0;
     text-align: center;
@@ -16,6 +18,8 @@ h1 {
 }
 
 #grid ol{
+    background-color: #009cdf;
+    color: #FFFF;
     border-right: 1px solid gray;
     margin: 0;
     width: 50px;
