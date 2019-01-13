@@ -7,7 +7,7 @@ def index(request):
     )
 
 def tow(request):
-    return render(request, 'yb123/tow.html',
+    return render(request, 'yb123/two.html',
     )
 
 def three(request):
