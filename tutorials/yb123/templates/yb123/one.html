@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>{% block title %}YB123 웹개발자 - HTML{% endblock %}</title>
-        <link rel="stylesheet" href="{% static 'css/layout02.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/layout_1.css' %}">
     </head>
     <body>
         <h1><a href="{% url 'yb123:one' %}">WEB</a></h1>
@@ -34,7 +34,7 @@
         </div>
         <div id="copyright">&copy; seokhyun 2019</div>
         <img src="{% static 'image/1001.jpg' %}" with="500" height="300"/>
-        <p>
+        <p id="mov">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/QkgKadktEYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
     </body>
