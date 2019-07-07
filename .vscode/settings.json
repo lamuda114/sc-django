@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "${workspaceFolder}/momo/bin/python"
+    "python.pythonPath": "${workspaceFolder}/momo/bin/python",
+    "git.ignoreLimitWarning": true
 }

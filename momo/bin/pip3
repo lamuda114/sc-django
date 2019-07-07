@@ -1,5 +1,4 @@
-#!/Users/seokhyun/sc-django/momo/bin/python3
-
+#!/home/seokhyun/sc-django/momo/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
